@@ -25,6 +25,8 @@ const allowedOrigins = new Set([
   "http://localhost:3000",
   "http://localhost:5173",
   "http://localhost:10000",
+  "https://voice-note-backend-m57d.onrender.com",
+  "voice-note-backend-m57d.onrender.com"
   
 ]);
 
