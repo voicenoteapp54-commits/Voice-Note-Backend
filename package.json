@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
+
 "scripts": {
   "dev": "tsx watch server.ts",
-  "build": "prisma generate && tsc",
+  "build": "prisma generate && tsc -p tsconfig.build.json",
   "start": "node dist/server.js",
   "postinstall": "prisma generate"
 },

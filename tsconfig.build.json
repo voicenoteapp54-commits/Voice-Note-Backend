@@ -1,0 +1,25 @@
+
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "allowImportingTsExtensions": true,
+    "rewriteRelativeImportExtensions": true,
+    "rootDir": ".",
+    "outDir": "./dist",
+    "declaration": false,
+    "declarationMap": false,
+    "sourceMap": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "*.ts",
+    "middleware",
+    "config",
+    "utils/tts.audio.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
