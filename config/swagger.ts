@@ -1,3 +1,4 @@
+
 import swaggerJsdoc from "swagger-jsdoc";
 
 const swaggerOptions: swaggerJsdoc.Options = {
@@ -12,6 +13,10 @@ const swaggerOptions: swaggerJsdoc.Options = {
       {
         url: "http://localhost:10000",
         description: "Local development",
+      },
+      {
+        url: "https://voice-note-backend-m57d.onrender.com",
+        description: "Production",
       },
     ],
     components: {
